@@ -1,6 +1,26 @@
 .All{
   position: relative;
+  margin:0;
 }
+
+/* スマホ */
+ @media screen and (max-width: 428px) {
+ .All{
+    padding-top: 0;
+    padding-bottom: 35px;}
+ }
+/* タブレット */
+ @media only screen and (min-width: 600px) and (max-width: 1024px) {
+ .All{
+    padding-top: 0;
+    padding-bottom: 35px;}
+ }
+/* パソコン */
+ @media screen and (min-width: 1024px) {
+ .All{
+    padding-top: 0;
+    padding-bottom: 35px;}
+ }
 
 .Container{
   display: flex;
