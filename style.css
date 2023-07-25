@@ -7,7 +7,7 @@
   justify-content:space-between;
   gap:0px 20px;
   background-image:url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
-  background-size: cover;
+  background-size: contain;
   background-position: right top;
   width:1366px;
   height: 768px;
