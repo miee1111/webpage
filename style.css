@@ -7,12 +7,20 @@
   justify-content:space-between;
   gap:0px 20px;
   background-image:url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
-  background-size: contain;
-  background-position: right top;
-  width:1366px;
+  background-size: cover;
+  background-position: center;
+  width:100%;
   height: 768px;
   background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 767px)
+.Container {
+    background-image: none;
+    padding-top: 0;
+    padding-bottom: 35px;
+}
+
 
 .Headerleft{
   padding: 20px;
